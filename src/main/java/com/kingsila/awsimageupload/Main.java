@@ -3,13 +3,11 @@ package com.kingsila.awsimageupload;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-
-
 @SpringBootApplication
-public class Main {
+public class AwsImageUploadApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Main.class, args);
+		SpringApplication.run(AwsImageUploadApplication.class, args);
 	}
 
 }
